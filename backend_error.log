@@ -1,0 +1,5 @@
+Error in chat_endpoint: No module named 'langchain_groq'
+Traceback (most recent call last):
+  File "/Users/sachithn/Downloads/AI-Tutor/backend/routers/chat.py", line 89, in chat_endpoint
+    from langchain_groq import ChatGroq
+ModuleNotFoundError: No module named 'langchain_groq'
